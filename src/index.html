@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+      <div class="sidebar__container">
+        <a class="logo__clickable" href="#">
+          <img src="./assets/icons/logo-spotify.png" alt="" />
+        </a>
+        <div class="sidebar__options">
+          <ul class="sidebar__list">
+            <li>
+              <a href="">
+                <span><i class="fa-solid fa-home"></i></span>
+                <span>Início</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span><i class="fa-solid fa-search"></i></span>
+                <span>Pesquisar</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sidebar__container library__container">
+        <div class="library_title">
+          <a class="library__a" href="">
+            <span><i class="fa-solid fa-book"></i></span>
+            <span>Biblioteca</span>
+          </a>
+          <a class="library_add" href=""><i class="fa-solid fa-plus"></i></a>
+        </div>
+        <div class="inner__container">
+            <h4>Crie sua primeira playlist!</h4>
+            <p>É fácil, vamos te ajudar</p>
+            <button class="white__btn">Criar playlist</button>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
