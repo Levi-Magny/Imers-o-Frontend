@@ -1,0 +1,14 @@
+:root {
+    /* FONT */
+    --font-dm-sans: "DM Sans", sans-serif;
+    --bg-box-container: #161616;
+    --bg-icon: #090909;
+    --container-border-radius: .5rem;
+
+    --text-base-dark: #000;
+    --text-base-light: snow;
+    --text-sub: #a7a7a7;
+
+    --grid-gap: 24px;
+    --column-count: 5;
+}
